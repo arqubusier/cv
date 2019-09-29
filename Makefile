@@ -1,2 +1,2 @@
-all: cv_15.tex
+all: cv_herman_lundkvist.tex
 	pdflatex $<
