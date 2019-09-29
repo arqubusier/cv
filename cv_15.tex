@@ -45,6 +45,8 @@ Country \\ % Address 3
 \includegraphics[width=0.6\columnwidth]{photo.jpg}\\[\baselineskip] % Your photo
 \small % Smaller font size
 Herman Lundkvist \\ % Your name
+Born September, 1993 \\
+\textbf{Contact} \\
 \url{herman.lundkvist@gmail.com} \\ % Your email address
 %\fakecontact
 \realcontact
@@ -72,7 +74,16 @@ Herman Lundkvist \\ % Your name
 %	ABOUT ME
 %----------------------------------------------------------------------------------------
 
-\aboutme{About Me}{Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel bibendum metus. Proin rutrum pharetra molestie. Cras sollicitudin nulla nec leo lobortis in tristique purus pretium. Ut eu felis nulla. Pellentesque condimentum justo ut ligula feugiat nec facilisis tellus ultricies. Nullam sit amet dictum ipsum. Sed lacus neque, hendrerit eu rhoncus nec, pellentesque vitae sem.}
+\aboutme{About Me}{
+I thrive on problem-solving and deep diving into interesting subjects.
+On my own I am resourceful and disciplined.
+As a teammate I am diplomatic; I often try to listen others.
+Professionally, I am, among other things, 
+interested in compiler design and processor architectures.
+On my spare time I enjoy mountain-biking in my local bike club.
+Occassionaly I also work on some hobby programming and electronics projects,
+such as my 3D printed keyboard with my own homemade firmware.
+}
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION
@@ -116,7 +127,7 @@ Worked at the aircraft simulation department.
 }
 
 \CVItem{Jun 2016 - Aug 2016, \textit{Summer Intern}, Saab AB}{
-    Worked with development of a Ada-parser for the tool Doxygen.
+    Worked with development of an Ada-parser for the tool Doxygen.
 }
 
 \CVItem{Mar 2016 - Maj 2016, \textit{Developer}, Ericssson AB}{
@@ -144,18 +155,22 @@ Worked at the aircraft simulation department.
 
 %------------------------------------------------
 
-\CVItem{Programming}
-{\begin{tabular}{p{0.2\textwidth} p{0.2\textwidth} p{0.2\textwidth}}
-\bluebullet Java &  \bluebullet Shell & \bluebullet Python\\
-\bluebullet C++ &  \bluebullet PHP & \bluebullet Matlab\\
-\end{tabular}}
+\CVItem{Programming Languages of Most Proficiency}
+{
+\begin{tabular}{p{0.2\textwidth} p{0.2\textwidth} p{0.2\textwidth}}
+\bluebullet C &  \bluebullet C++ & \bluebullet Bash\\
+    \bluebullet POSIX shell &  \bluebullet Python & \bluebullet Make\\
+\end{tabular}
+}
 
 %------------------------------------------------
 
-\CVItem{Computer Software}
-{\begin{tabular}{p{0.2\textwidth} p{0.2\textwidth} p{0.2\textwidth}}
- \bluebullet MySQL &  \bluebullet iOS & \bluebullet Android\\
-\end{tabular}}
+\CVItem{Development and Target Platforms of Most Familiarty}
+{
+\begin{tabular}{p{0.30\textwidth} p{0.3\textwidth} p{0.2\textwidth}}
+    \bluebullet Linux (x86) & \bluebullet Solaris (x86 and SPARC)\\
+\end{tabular}
+}
 
 %------------------------------------------------
 
@@ -165,45 +180,11 @@ Worked at the aircraft simulation department.
 %	NEW PAGE DELIMITER
 %	Place this block wherever you would like the content of your CV to go onto the next page
 %----------------------------------------------------------------------------------------
-
-\clearpage % Start a new page
-
-\userinformation % Print your information in the left column
-
-\framebreak % End of the first column
-
-%----------------------------------------------------------------------------------------
-%	AWARDS
-%----------------------------------------------------------------------------------------
-
-\CVSection{Awards}
-
-%------------------------------------------------
-
-\CVItem{2010, \textit{Postgraduate Scholarship}, Cornell University}{Awarded to the top student in their final year of a Bachelors degree.}
-
-%------------------------------------------------
-
-\Sep % Extra whitespace after the end of a major section
-
-%----------------------------------------------------------------------------------------
-%	INTERESTS
-%----------------------------------------------------------------------------------------
-
-\CVSection{Interests}
-
-%------------------------------------------------
-
-\CVItem{Professional}{Data analysis, company profiling, risk analysis, economics, web design, web app creation, software design, marketing}
-
-%------------------------------------------------
-
-\CVItem{Personal}{Piano, chess, cooking, dancing, running}
-
-%------------------------------------------------
-
-\Sep % Extra whitespace after the end of a major section
-
-%----------------------------------------------------------------------------------------
-
+%
+%\clearpage % Start a new page
+%
+%\userinformation % Print your information in the left column
+%
+%\framebreak % End of the first column
+%
 \end{document}
