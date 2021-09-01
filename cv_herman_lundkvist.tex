@@ -22,6 +22,13 @@
 \documentclass[a4paper,12pt]{memoir} % Font and paper size
 
 \usepackage{contactinfo}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=cyan
+    }
 
 \input{structure.tex} % Include the file specifying document layout and packages
 
@@ -82,11 +89,11 @@ Born September, 1993 \\
 I thrive on problem-solving and deep diving into interesting subjects.
 On my own I am resourceful and disciplined.
 As a teammate I am diplomatic; I often try to listen others.
-Professionally, I am, among other things, 
-interested in compiler design and processor architectures.
+Professionally I am, among other things, 
+interested in software close to the hardware.
 On my spare time I enjoy mountain-biking in my local bike club.
 Occassionaly I also work on some hobby programming and electronics projects,
-such as my 3D printed keyboard with my own homemade firmware.
+such as a 3D-printed keyboard with a custom PCB I use as my daily driver.
 }
 
 %----------------------------------------------------------------------------------------
@@ -115,29 +122,28 @@ such as my 3D printed keyboard with my own homemade firmware.
 
 %------------------------------------------------
 
-\CVItem{Sep 2017 - present, \textit{Systems Engineer}, Saab AB}{
-Worked at the aircraft simulation department.
+\CVItem{Dec 2019 - present, \textit{Software Developer}, Vector Sweden (VecScan AB)}{
 \begin{itemize}
-    \item Software development primarily in C and C++ for Unix and Unix-like platforms.
-	\item Developed a Solaris driver for a CAN-bus pcie-card.
+    \item implementation of Adaptive MICROSAR, a framework for developing software for high performance ECUs
+    \item software development primarily in C++ and Java for Linux
+    \item maintenance and implementon of \href{https://www.autosar.org/fileadmin/user\_upload/standards/adaptive/20-11/AUTOSAR\_SWS\_AdaptiveCore.pdf}{Adaptive Core}
+    \item work on code generators used in Adaptive MICROSAR
+\end{itemize}
+}
+
+\CVItem{Sep 2017 - dec 2019, \textit{Systems Engineer}, Saab AB}{
+\begin{itemize}
+    \item software development primarily in C and C++ for Unix and Unix-like platforms for the aircraft simulation department
+	\item solo development of a Solaris driver for a CAN-bus PCIe-card
 \end{itemize}
 }
 
 %------------------------------------------------
-\CVSection{Internships and Hourly Work}
-
-\CVItem{Aug 2016 - Dec 2016, \textit{Software Development}, Saab AB}{
-    Continued working by the hour on the Summer intern project.
-}
+\CVSection{Internships}
 
 \CVItem{Jun 2016 - Aug 2016, \textit{Summer Intern}, Saab AB}{
     Worked with development of an Ada-parser for the tool Doxygen.
 }
-
-\CVItem{Mar 2016 - Maj 2016, \textit{Developer}, Ericssson AB}{
-    Worked by the hour with a study on replacement of XML with YAML in a specific use-case.
-}
-
 
 \CVItem{Jun 2015 - Jul 2015, \textit{Summer Intern}, Ericsson AB}{
     Developed a python tool for automating analysis of logs from Ericsson base stations for the purpose of troubleshooting. 
@@ -162,8 +168,8 @@ Worked at the aircraft simulation department.
 \CVItem{Programming Languages of Most Proficiency}
 {
 \begin{tabular}{p{0.2\textwidth} p{0.2\textwidth} p{0.2\textwidth}}
-\bluebullet C &  \bluebullet C++ & \bluebullet Bash\\
-    \bluebullet POSIX shell &  \bluebullet Python & \bluebullet Make\\
+    \bluebullet C &  \bluebullet C++ & \bluebullet Bash \\
+    \bluebullet Java &  \bluebullet Python & \bluebullet Make\\
 \end{tabular}
 }
 
